@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+argparse = "*"
+tf-pose = {git = "https://git@github.com/ildoonet/tf-pose-estimation"}
+opencv-python = "*"
+tensorflow = {file = "https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.9.0-py3-none-any.whl"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
